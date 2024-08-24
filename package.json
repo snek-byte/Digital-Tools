@@ -1,0 +1,19 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "description": "A simple URL shortener using Node.js and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^7.8.1",
+    "path": "^0.12.7",
+    "shortid": "^2.2.16"
+  },
+  "author": "",
+  "license": "ISC"
+}
